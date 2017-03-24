@@ -1,3 +1,10 @@
+less (481-2.1ubuntu0.2) xenial; urgency=medium
+
+  * debian/patches/lp-1562308-fix_mkutable.patch:
+    - Fix east asian width problem (LP: #1562308)
+
+ -- Mitsuya Shibata <mty.shibata@gmail.com>  Sat, 25 Mar 2017 03:00:03 +0900
+
 less (481-2.1ubuntu0.1) xenial; urgency=medium
 
   * debian/lesspipe: Fix typo that broke ddeb support (LP: #1606640)
